@@ -11,8 +11,8 @@ public class FornecedorJuridico extends Fornecedor {
 
     public FornecedorJuridico() {}
 
-    public FornecedorJuridico(UUID id, String documento, Endereco endereco, String razaoSocial, String nomeFantasia, String inscricaoEstadual, String inscricaoMunicipal) {
-        super(id, 'J', documento, endereco);
+    public FornecedorJuridico(String documento, Endereco endereco, String razaoSocial, String nomeFantasia, String inscricaoEstadual, String inscricaoMunicipal) {
+        super('J', documento, endereco);
         this.razaoSocial = razaoSocial;
         this.nomeFantasia = nomeFantasia;
         this.inscricaoEstadual = inscricaoEstadual;

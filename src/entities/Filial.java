@@ -12,8 +12,7 @@ public class Filial {
     private String inscricaoMunicipal;
     private Endereco endereco;
 
-    public Filial() {
-    }
+    public Filial() {}
 
     public Filial(String codigo, boolean status, String cnpj, String nomeFantasia, String inscricaoEstadual, String inscricaoMunicipal, Endereco endereco) {
         this.id = UUID.randomUUID();
@@ -24,5 +23,19 @@ public class Filial {
         this.inscricaoEstadual = inscricaoEstadual;
         this.inscricaoMunicipal = inscricaoMunicipal;
         this.endereco = endereco;
+    }
+
+    @Override
+    public String toString() {
+        return "Filial{" +
+                "id=" + id +
+                ", codigo='" + codigo + '\'' +
+                ", status=" + status +
+                ", cnpj='" + cnpj + '\'' +
+                ", nomeFantasia='" + nomeFantasia + '\'' +
+                ", inscricaoEstadual='" + inscricaoEstadual + '\'' +
+                ", inscricaoMunicipal='" + inscricaoMunicipal + '\'' +
+                ", endereco=" + endereco +
+                '}';
     }
 }

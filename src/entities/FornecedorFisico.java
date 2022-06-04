@@ -8,8 +8,8 @@ public class FornecedorFisico extends Fornecedor {
 
     public FornecedorFisico() {}
 
-    public FornecedorFisico(UUID id, String documento, Endereco endereco, String nome) {
-        super(id, 'F', documento, endereco);
+    public FornecedorFisico(String documento, Endereco endereco, String nome) {
+        super('F', documento, endereco);
         this.nome = nome;
     }
 }

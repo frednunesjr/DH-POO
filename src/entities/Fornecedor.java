@@ -10,18 +10,19 @@ public class Fornecedor {
 
     public Fornecedor() {}
 
-    protected Fornecedor(UUID id, Character natureza, String documento, Endereco endereco) {
+    protected Fornecedor(Character natureza, String documento, Endereco endereco) {
        this.id = UUID.randomUUID();
        this.natureza = natureza;
        this.documento = documento;
+       this.endereco = endereco;
     }
 
     @Override
     public String toString() {
         return "Fornecedor{" +
-                "id=" + id +
-                ", natureza=" + natureza +
-                ", documento='" + documento + '\'' +
-                ", endereco=" + endereco;
+                "\n\tid=" + id +
+                ",\n\tnatureza=" + natureza +
+                ",\n\tdocumento='" + documento + '\'' +
+                ",\n\tendereco=" + endereco;
     }
 }
