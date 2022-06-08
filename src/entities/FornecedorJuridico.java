@@ -18,4 +18,18 @@ public class FornecedorJuridico extends Fornecedor {
         this.inscricaoEstadual = inscricaoEstadual;
         this.inscricaoMunicipal = inscricaoMunicipal;
     }
+
+    @Override
+    public String toString() {
+        return "FornecedorJuridico{" +
+                "id=" + id +
+                ", natureza=" + natureza + '\'' +
+                ", documento='" + documento + '\'' +
+                ", razaoSocial='" + razaoSocial + '\'' +
+                ", nomeFantasia='" + nomeFantasia + '\'' +
+                ", inscricaoEstadual='" + inscricaoEstadual + '\'' +
+                ", inscricaoMunicipal='" + inscricaoMunicipal + '\'' +
+                ", endereco=" + endereco +
+                '}';
+    }
 }

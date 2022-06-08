@@ -3,10 +3,10 @@ package entities;
 import java.util.UUID;
 
 public abstract class Fornecedor {
-    private UUID id;
-    private Character natureza;
-    private String documento;
-    private Endereco endereco;
+    protected UUID id;
+    protected Character natureza;
+    protected String documento;
+    protected Endereco endereco;
 
     public Fornecedor() {}
 
@@ -18,11 +18,5 @@ public abstract class Fornecedor {
     }
 
     @Override
-    public String toString() {
-        return "Fornecedor{" +
-                "\n\tid=" + id +
-                ",\n\tnatureza=" + natureza +
-                ",\n\tdocumento='" + documento + '\'' +
-                ",\n\tendereco=" + endereco;
-    }
+    public abstract String toString();
 }

@@ -22,13 +22,13 @@ public class Endereco {
     @Override
     public String toString() {
         return "Endereco{" +
-                "\n\t cep='" + cep + "\'," +
-                "\n\t logradouro='" + logradouro + "\'," +
-                "\n\t numero=" + numero +
-                "\n\t complemento='" + complemento + "\'," +
-                "\n\t bairro='" + bairro + "\'," +
-                "\n\t cidade='" + cidade + "\'," +
-                "\n\t uf='" + uf + "\'," +
-                "\n}";
+                "cep='" + cep + '\'' +
+                ", logradouro='" + logradouro + '\'' +
+                ", numero=" + numero +
+                ", complemento='" + complemento + '\'' +
+                ", bairro='" + bairro + '\'' +
+                ", cidade='" + cidade + '\'' +
+                ", uf='" + uf + '\'' +
+                '}';
     }
 }

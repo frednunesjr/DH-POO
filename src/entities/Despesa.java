@@ -46,14 +46,14 @@ public class Despesa {
     @Override
     public String toString() {
         return "Despesa{" +
-                "\n\t" + "id=" + id + "," +
-                "\n\t" + "criadaEm=" + criadaEm + "," +
-                "\n\t" + "fornecedor=" + fornecedor + "," +
-                "\n\t" + "descricao='" + descricao + '\'' +
-                "\n\t" + "centroCusto=" + centroCusto +
-                "\n\t" + "destino=" + destino +
-                "\n\t" + "valor=" + valor +
-                "\n\t" + "valorPago=" + valorPago +
-                "\n}";
+                "id=" + id +
+                ", criadaEm=" + criadaEm +
+                ", fornecedor=" + fornecedor +
+                ", descricao='" + descricao + '\'' +
+                ", centroCusto=" + centroCusto +
+                ", destino=" + destino +
+                ", valor=" + valor +
+                ", valorPago=" + valorPago +
+                '}';
     }
 }

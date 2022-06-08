@@ -12,4 +12,15 @@ public class FornecedorFisico extends Fornecedor {
         super('F', documento, endereco);
         this.nome = nome;
     }
+
+    @Override
+    public String toString() {
+        return "FornecedorFisico{" +
+                "id=" + id +
+                ", natureza=" + natureza +
+                ", documento='" + documento + '\'' +
+                ", nome='" + nome + '\'' +
+                ", endereco=" + endereco +
+                '}';
+    }
 }
