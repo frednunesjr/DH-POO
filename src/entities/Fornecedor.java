@@ -2,7 +2,7 @@ package entities;
 
 import java.util.UUID;
 
-public class Fornecedor {
+public abstract class Fornecedor {
     private UUID id;
     private Character natureza;
     private String documento;
@@ -10,7 +10,7 @@ public class Fornecedor {
 
     public Fornecedor() {}
 
-    protected Fornecedor(Character natureza, String documento, Endereco endereco) {
+    public Fornecedor(Character natureza, String documento, Endereco endereco) {
        this.id = UUID.randomUUID();
        this.natureza = natureza;
        this.documento = documento;
