@@ -11,10 +11,10 @@ public class Programa {
 
         endereco1 = new Endereco("01001001", "Praça da Sé", 1, null, "Sé", "São Paulo", "SP");
         endereco2 = new Endereco("04015003", "Rua Joaquim Távora", 1405, null, "Vila Mariana", "São Paulo", "SP");
-        endereco3 = new Endereco("04937160", "Rua Manuel Laranjeira", 60, "B", "Jardim Boa Vista", "São Paulo", "SP");
-        endereco4 = new Endereco("04937160", "Rua Manuel Laranjeira", 60, "B", "Jardim Boa Vista", "São Paulo", "SP");
-        endereco5 = new Endereco("04937160", "Rua Manuel Laranjeira", 60, "B", "Jardim Boa Vista", "São Paulo", "SP");
-        endereco6 = new Endereco("04937160", "Rua Manuel Laranjeira", 60, "B", "Jardim Boa Vista", "São Paulo", "SP");
+        endereco3 = new Endereco("03105003", "Avenida do Estado", 5533, null, "Cambuci", "São Paulo", "SP");
+        endereco4 = new Endereco("01310000", "Avenida Paulista", 100, "Conjunto 10", "Bela Vista", "São Paulo", "SP");
+        endereco5 = new Endereco("01504000", "Rua Vergueiro", 60, "Bloco A", "Liberdade", "São Paulo", "SP");
+        endereco6 = new Endereco("03101005", "Avenida Alcântara Machado", 4188, null, "Quarta Parada", "São Paulo", "SP");
         endereco7 = new Endereco("04937160", "Rua Manuel Laranjeira", 60, "B", "Jardim Boa Vista", "São Paulo", "SP");
 
         fornPF1 = new FornecedorFisico("13005595005", endereco1, "Jadson Santos");
